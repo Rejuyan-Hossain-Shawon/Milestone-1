@@ -1,0 +1,33 @@
+/* style for flexible html */
+span{
+    display: block;
+}
+.block{
+    margin: 5px;
+    border: 5px solid salmon;
+    border-radius: 10px 0px 0px 10px ;
+    /* border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
+    padding: 10px;
+    height: 250px;
+    width: 97%;
+
+
+}
+
+.block h2{
+    display: inline;
+}
+
+#inline-experiment{
+    color: cornflowerblue;
+    display: inline;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
