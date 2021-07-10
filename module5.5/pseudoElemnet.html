@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class element</title>
+    <style>
+        h1:hover {
+
+
+            color: turquoise;
+            font-size: 40px;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:active {
+            color: pink;
+        }
+
+        .special:focus {
+            color: tomato;
+            font-size: 20px;
+            font-weight: 700;
+            background-color: steelblue;
+        }
+
+        li:nth-child(2n+1) {
+            color: lawngreen;
+        }
+
+        li:first-child {
+            color: red;
+        }
+
+        li:last-child {
+            color: red;
+        }
+
+        li::after {
+            content: "hellow myself";
+        }
+
+        li:first-child::after {
+            content: "do what ever you want to do";
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Here you can see a hover </h1>
+    <h2>link vistit non visit </h2>
+    <a target="_blank" href="https://www.google.com/">google</a>
+    <a target="_blank"
+        href="https://web.programming-hero.com/course/quiz-question/web-4-quiz-5_5-4">programming-hero</a>
+    <a target="_blank"
+        href="http://www.avajava.com/tutorials/lessons/how-do-i-format-unvisited-and-visited-links.html">unvisited
+        link</a>
+    <h1>Focus used on this input </h1>
+    <input class="special" type="text">
+    <input class="special" type="text">
+    <input class="special" type="text">
+    <input class="special" type="text">
+    <h2>nth child Pseudo class</h2>
+    <ul>
+        <li>this is list number 1</li>
+        <li>this is list number 2</li>
+        <li>this is list number 3</li>
+        <li>this is list number 4</li>
+        <li>this is list number 5</li>
+        <li>this is list number 6</li>
+        <li>this is list number 7</li>
+        <li>this is list number 8</li>
+        <li>this is list number 9</li>
+    </ul>
+
+</body>
+
+</html>
